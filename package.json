@@ -8,9 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/monatheoctocat/my_package.git"
+    "type": "github",
+    "url": "https://github.com/weijintao92/wjt-module"
   },
+  "keywords": ["vue","component"],
+  "author": "wjt",
+  "license": "ISC",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
