@@ -1,9 +1,9 @@
 {
   "name": "wjt-components",
   "version": "1.0.0",
-  "description": "我自己的vue组件库",
+  "description": "基于elementui 2.14的私人组件",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -11,11 +11,17 @@
     "type": "github",
     "url": "https://github.com/weijintao92/wjt-module"
   },
-  "keywords": ["vue","component"],
+  "keywords": [
+    "vue",
+    "component"
+  ],
   "author": "wjt",
   "license": "ISC",
   "dependencies": {
+    "clipboard": "^2.0.6",
     "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
+    "highlight.js": "^10.5.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

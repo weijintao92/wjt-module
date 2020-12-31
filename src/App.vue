@@ -1,16 +1,13 @@
 <template>
   <div id="app">
-   <image_viewer></image_viewer>
+    <CodeView></CodeView>
   </div>
 </template>
 
 <script>
-import image_viewer from './components/image-viewer.vue'
 export default {
   name: 'App',
-  components: {
-    image_viewer
-  }
+
 }
 </script>
 
